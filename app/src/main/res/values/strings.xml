@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Macro Pet SuperApp</string>
+    <string name="imageview">ImgaeView</string>
 </resources>
