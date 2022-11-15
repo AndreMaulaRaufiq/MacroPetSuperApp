@@ -6,4 +6,8 @@
 <br>help animals around you</br>
     </string>
     <string name="get_started">Get Started</string>
+    <string name="ini_logo">Ini Logo</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="super_pets">SUPER PETS</string>
 </resources>
