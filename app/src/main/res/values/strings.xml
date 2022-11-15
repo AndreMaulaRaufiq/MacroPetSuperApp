@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Macro Pet SuperApp</string>
     <string name="imageview">ImgaeView</string>
+    <string name="started_title">Help animals around you</string>
+    <string name="started_subtitle">Adopt, community, shop to
+<br>help animals around you</br>
+    </string>
+    <string name="get_started">Get Started</string>
 </resources>
