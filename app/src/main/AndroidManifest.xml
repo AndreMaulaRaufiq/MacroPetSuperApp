@@ -13,6 +13,29 @@
         android:theme="@style/Theme.MacroPetSuperApp"
         tools:targetApi="31">
         <activity
+            android:name=".ProductDetailActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CatFoodActivity"
+            android:exported="false"
+            android:label="@string/title_activity_cat_food"
+            android:theme="@style/Theme.MacroPetSuperApp.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MarketActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".AdoptActivity"
             android:exported="false">
             <meta-data
