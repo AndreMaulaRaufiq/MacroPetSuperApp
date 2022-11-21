@@ -1,9 +1,8 @@
-package com.example.macropetsuperapp
+package com.example.macropetsuperapp.marketplace
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.macropetsuperapp.databinding.ActivityMainBinding
+import androidx.appcompat.app.AppCompatActivity
 import com.example.macropetsuperapp.databinding.ActivityMarketBinding
 
 class MarketActivity : AppCompatActivity() {
@@ -17,6 +16,18 @@ class MarketActivity : AppCompatActivity() {
 
         binding.btnCatFood.setOnClickListener {
             startActivity(Intent(this, CatFoodActivity::class.java))
+        }
+
+        binding.btnDogFood.setOnClickListener {
+            startActivity(Intent(this, DogFoodActivity::class.java))
+        }
+
+        binding.btnToys.setOnClickListener {
+            startActivity(Intent(this, ToysActivity::class.java))
+        }
+
+        binding.btnHealth.setOnClickListener {
+            startActivity(Intent(this, HealthActivity::class.java))
         }
     }
 }

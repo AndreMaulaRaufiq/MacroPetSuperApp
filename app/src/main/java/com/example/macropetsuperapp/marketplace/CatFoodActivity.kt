@@ -1,17 +1,18 @@
-package com.example.macropetsuperapp
+package com.example.macropetsuperapp.marketplace
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.macropetsuperapp.R
 import com.example.macropetsuperapp.recyclerview.ProductAdapter
 import com.example.macropetsuperapp.recyclerview.ProductItems
 
 class CatFoodActivity : AppCompatActivity() {
 
     companion object {
-        val INTENT_PARCELABLE = "OBJECT_INTENT"
+        const val INTENT_PARCELABLE = "OBJECT_INTENT"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

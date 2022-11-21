@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.macropetsuperapp.databinding.ActivityHomeBinding
+import com.example.macropetsuperapp.marketplace.MarketActivity
 
 class HomeActivity : AppCompatActivity() {
 
