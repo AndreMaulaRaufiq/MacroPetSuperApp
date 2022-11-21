@@ -17,5 +17,9 @@ class HomeActivity : AppCompatActivity() {
         binding.adoptBtn.setOnClickListener {
             startActivity(Intent(this, AdoptActivity::class.java))
         }
+
+        binding.marketBtn.setOnClickListener {
+            startActivity(Intent(this, MarketActivity::class.java))
+        }
     }
 }
