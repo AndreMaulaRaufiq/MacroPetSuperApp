@@ -1,4 +1,4 @@
-package com.example.macropetsuperapp
+package com.example.macropetsuperapp.fragments
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,10 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import androidx.appcompat.app.AppCompatActivity
-import com.example.macropetsuperapp.databinding.ActivityHomeBinding
-import com.example.macropetsuperapp.databinding.ActivityMarketBinding
+import com.example.macropetsuperapp.R
 import com.example.macropetsuperapp.marketplace.*
 import de.hdodenhof.circleimageview.CircleImageView
 

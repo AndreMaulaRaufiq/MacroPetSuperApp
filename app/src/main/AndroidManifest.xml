@@ -13,6 +13,27 @@
         android:theme="@style/Theme.MacroPetSuperApp"
         tools:targetApi="31">
         <activity
+            android:name=".adopt_centre.AdoptCatActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".adopt_centre.AdoptDetailActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".adopt_centre.AdoptDogActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".marketplace.HealthActivity"
             android:exported="false">
             <meta-data
@@ -57,7 +78,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".AdoptActivity"
+            android:name=".adopt_centre.AdoptActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
