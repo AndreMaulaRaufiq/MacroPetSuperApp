@@ -1,20 +1,20 @@
 package com.example.macropetsuperapp.marketplace
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
-import androidx.appcompat.widget.AppCompatButton
+import androidx.appcompat.app.AppCompatActivity
 import com.example.macropetsuperapp.R
 import com.example.macropetsuperapp.recyclerview.ProductItems
+import com.google.android.material.button.MaterialButton
 
 class ProductDetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_product_detail)
 
-        val button = findViewById<AppCompatButton>(R.id.buy_btn)
+        val button = findViewById<MaterialButton>(R.id.buy_btn)
         button.setOnClickListener {
             Toast.makeText(this, "Successfully bought! Enjoy!", Toast.LENGTH_SHORT).show()
         }

@@ -7,13 +7,13 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.macropetsuperapp.HomeFragment"
+        android:name="com.example.macropetsuperapp.fragments.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_adopt"
-        android:name="com.example.macropetsuperapp.AdoptFragment"
+        android:name="com.example.macropetsuperapp.fragments.AdoptFragment"
         android:label="@string/title_adopt"
         tools:layout="@layout/fragment_adopt" />
 
@@ -25,7 +25,7 @@
 
     <fragment
         android:id="@+id/navigation_market"
-        android:name="com.example.macropetsuperapp.MarketFragment"
+        android:name="com.example.macropetsuperapp.fragments.MarketFragment"
         android:label="@string/title_market"
         tools:layout="@layout/activity_market" />
 </navigation>
