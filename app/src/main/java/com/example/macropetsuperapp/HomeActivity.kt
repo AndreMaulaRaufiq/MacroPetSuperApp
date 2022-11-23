@@ -1,8 +1,12 @@
 package com.example.macropetsuperapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.example.macropetsuperapp.adopt_centre.AdoptDetailActivity
 import com.example.macropetsuperapp.databinding.ActivityHomeBinding
 import com.example.macropetsuperapp.fragments.AdoptFragment
 import com.example.macropetsuperapp.fragments.HomeFragment

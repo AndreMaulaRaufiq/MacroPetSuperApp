@@ -13,6 +13,13 @@
         android:theme="@style/Theme.MacroPetSuperApp"
         tools:targetApi="31">
         <activity
+            android:name=".CommunityDetailActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".adopt_centre.AdoptCatActivity"
             android:exported="false">
             <meta-data
@@ -112,6 +119,13 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity android:name=".CommunityFragment"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
