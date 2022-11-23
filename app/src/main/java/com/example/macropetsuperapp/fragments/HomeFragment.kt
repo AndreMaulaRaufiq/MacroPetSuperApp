@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import androidx.cardview.widget.CardView
+import androidx.fragment.app.FragmentTransaction
 import com.example.macropetsuperapp.CommunityFragment
 import com.example.macropetsuperapp.R
 import com.example.macropetsuperapp.adopt_centre.AdoptCatActivity
