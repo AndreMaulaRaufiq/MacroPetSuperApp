@@ -11,6 +11,7 @@ import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.fragment.app.FragmentTransaction
 import com.example.macropetsuperapp.CommunityFragment
+import com.example.macropetsuperapp.MapsActivity
 import com.example.macropetsuperapp.R
 import com.example.macropetsuperapp.adopt_centre.AdoptCatActivity
 import com.example.macropetsuperapp.adopt_centre.AdoptDetailActivity
@@ -38,7 +39,7 @@ class HomeFragment : Fragment() {
 
         val Maps: TextView = view.findViewById(R.id.text_location)
         Maps.setOnClickListener {
-            val btnMaps = Intent(this@HomeFragment.activity, AdoptCatActivity::class.java)
+            val btnMaps = Intent(this@HomeFragment.activity, MapsActivity::class.java)
             startActivity(btnMaps)
         }
 
