@@ -48,11 +48,5 @@ class HomeFragment : Fragment() {
             val btnrecent1 = Intent(this@HomeFragment.activity, AdoptCatActivity::class.java)
             startActivity(btnrecent1)
         }
-
-        val recent_cardview2: CardView = view.findViewById(R.id.cardView_recent2)
-        recent_cardview2.setOnClickListener {
-            val btnrecent2 = Intent(this@HomeFragment.activity, AdoptCatActivity::class.java)
-            startActivity(btnrecent2)
-        }
     }
 }
