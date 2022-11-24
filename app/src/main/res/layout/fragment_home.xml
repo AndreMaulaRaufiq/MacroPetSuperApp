@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/border"
+    android:background="#377D71"
     tools:context=".fragments.HomeFragment">
 
     <TextView
@@ -13,8 +13,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginTop="16dp"
-        android:text="Your location"
+        android:text="Your location "
         android:textColor="@color/black"
+        android:drawableRight="@drawable/ep_arrow_down_bold"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,8 +27,9 @@
         android:layout_marginStart="30dp"
         android:layout_marginBottom="16dp"
         android:fontFamily="@font/poppins_bold"
-        android:text="Solo, Indonesia"
+        android:text="  Solo, Indonesia"
         android:textColor="@color/black"
+        android:drawableLeft="@drawable/carbon_location_filled"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_yourlocation" />
